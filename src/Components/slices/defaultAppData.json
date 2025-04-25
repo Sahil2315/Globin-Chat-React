@@ -1,0 +1,225 @@
+{
+    "DMs": [
+        {
+            "uid": 1,
+            "uname": "Emily Brown",
+            "uStat": "Busy at Work",
+            "img": "src/assets/trialPhoto3.jpg",
+            "messages": [
+                {
+                    "msgid": 1,
+                    "sendid": 1,
+                    "recid": 0,
+                    "date": "2025-02-04",
+                    "timing": "11:05",
+                    "content": "Hi there!"
+                },
+                {
+                    "msgid": 2,
+                    "sendid": 1,
+                    "recid": 0,
+                    "date": "2025-02-04",
+                    "timing": "11:05",
+                    "content": "This is Emily Brown"
+                },
+                {
+                    "msgid": 3,
+                    "sendid": 0,
+                    "recid": 1,
+                    "date": "2025-02-04",
+                    "timing": "11:07",
+                    "content": "Hello"
+                },
+                {
+                    "msgid": 4,
+                    "sendid": 0,
+                    "recid": 1,
+                    "date": "2025-02-04",
+                    "timing": "11:07",
+                    "content": "This is John Doe"
+                },
+                {
+                    "msgid": 5,
+                    "sendid": 1,
+                    "recid": 0,
+                    "date": "2025-02-04",
+                    "timing": "11:12",
+                    "content": "How are you doing today?"
+                },
+                {
+                    "msgid": 6,
+                    "sendid": 0,
+                    "recid": 1,
+                    "date": "2025-02-04",
+                    "timing": "11:13",
+                    "content": "I'm doing well, thank you!"
+                },
+                {
+                    "msgid": 7,
+                    "sendid": 1,
+                    "recid": 0,
+                    "date": "2025-02-04",
+                    "timing": "11:15",
+                    "content": "Did you receive the document?"
+                },
+                {
+                    "msgid": 8,
+                    "sendid": 0,
+                    "recid": 1,
+                    "date": "2025-02-04",
+                    "timing": "11:17",
+                    "content": "Yup, got it. Thanks!"
+                },
+                {
+                    "msgid": 9,
+                    "sendid": 1,
+                    "recid": 0,
+                    "date": "2025-02-04",
+                    "timing": "11:20",
+                    "content": "Let me know if you need anything else."
+                }
+            ]
+        },
+        {
+            "uid": 2,
+            "uname": "David Taylor",
+            "uStat": "Available to Chat",
+            "img": "src/assets/trialPhoto2.jpg",
+            "messages": [
+                {
+                    "msgid": 1,
+                    "sendid": 2,
+                    "recid": 0,
+                    "date": "2025-03-03",
+                    "timing": "14:05",
+                    "content": "Hello!"
+                },
+                {
+                    "msgid": 2,
+                    "sendid": 2,
+                    "recid": 0,
+                    "date": "2025-03-03",
+                    "timing": "14:05",
+                    "content": "How are you doing today?"
+                },
+                {
+                    "msgid": 3,
+                    "sendid": 0,
+                    "recid": 2,
+                    "date": "2025-03-03",
+                    "timing": "14:15",
+                    "content": "Hello"
+                },
+                {
+                    "msgid": 4,
+                    "sendid": 0,
+                    "recid": 2,
+                    "date": "2025-03-03",
+                    "timing": "14:15",
+                    "content": "I am doing great, what about you?"
+                },
+                {
+                    "msgid": 5,
+                    "sendid": 2,
+                    "recid": 0,
+                    "date": "2025-03-03",
+                    "timing": "14:24",
+                    "content": "I am great as well"
+                },
+                {
+                    "msgid": 6,
+                    "sendid": 0,
+                    "recid": 2,
+                    "date": "2025-03-04",
+                    "timing": "12:14",
+                    "content": "How was you last trip?"
+                },
+                {
+                    "msgid": 7,
+                    "sendid": 2,
+                    "recid": 0,
+                    "date": "2025-03-04",
+                    "timing": "12:30",
+                    "content": "It was great"
+                },
+                {
+                    "msgid": 8,
+                    "sendid": 0,
+                    "recid": 2,
+                    "date": "2025-03-04",
+                    "timing": "13:03",
+                    "content": "Thats good to know"
+                },
+                {
+                    "msgid": 9,
+                    "sendid": 0,
+                    "recid": 2,
+                    "date": "2025-03-04",
+                    "timing": "13:10",
+                    "content": "I hope to join you on your next one"
+                }
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "grpid": 0,
+            "grpname": "Group 0",
+            "grplogo": "src/assets/trialPhoto3.jpg",
+            "grpdesc": "Test UI Group",
+            "roomid": "",
+            "members": [
+                {
+                    
+                },
+                {
+
+                }, 
+                {
+
+                }
+            ],
+            "messages": [
+                {
+                    "memberid": 0,
+                    "gmsgid": 0,
+                    "cont": "Hello There! Welcome to the Test UI Group",
+                    "date": "2025-03-13",
+                    "time": "14:50"
+                },
+                {
+                    "memberid": 1,
+                    "gmsgid": 1,
+                    "cont": "Hey!",
+                    "date": "2025-03-13",
+                    "time": "14:50"
+                },
+                {
+                    "memberid": 0,
+                    "gmsgid": 2,
+                    "cont": "Whats Up",
+                    "date": "2025-03-13",
+                    "time": "14:50"
+                },
+                {
+                    "memberid": 0,
+                    "gmsgid": 3,
+                    "cont": "Everything Good?",
+                    "date": "2025-03-13",
+                    "time": "14:50"
+                },
+                {
+                    "memberid": 1,
+                    "gmsgid": 4,
+                    "cont": "Yup! What about you?",
+                    "date": "2025-03-13",
+                    "time": "14:50"
+                }
+            ]
+        }
+    ],
+    "currentUserId": 0,
+    "userImg": "src/assets/trialPhoto.jpg",
+    "userName": "John Doe",
+    "status": "Having a Great Time"
+}

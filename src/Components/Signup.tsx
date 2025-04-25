@@ -21,6 +21,8 @@ const Signup = () => {
             <span>Already have an account? <Link className='text-cyan-400 py-1 px-2 rounded-md hover:bg-indigo-400/20' to='/login'>Login</Link></span>
             <span>OR</span>
             <span>Try the UI first - <Link className='text-cyan-400 py-1 px-2 rounded-md hover:bg-indigo-400/20' to='/try'>Here</Link></span>
+            <span>OR</span>
+            <span>Go back to the Home Page - <Link className='text-cyan-400 py-1 px-2 rounded-md hover:bg-indigo-400/20' to='/'>Here</Link></span>
           </div>
         </div>
 
