@@ -23,8 +23,7 @@ const Home = () => {
             Try the UI
           </Link>
           <Link
-            onClick={(e) => showTab(e)}
-            className="ml-16 py-1 px-2 rounded-md hover:bg-indigo-400/30 opacity-70"
+            className="ml-16 py-1 px-2 rounded-md hover:bg-indigo-400/30"
             to="/login"
           >
             Login

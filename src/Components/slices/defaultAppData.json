@@ -4,7 +4,7 @@
             "uid": 1,
             "uname": "Emily Brown",
             "uStat": "Busy at Work",
-            "img": "src/assets/trialPhoto3.jpg",
+            "img": "https://firebasestorage.googleapis.com/v0/b/chatapp-6f2d9.appspot.com/o/Images%2FtrialPhoto3.jpg?alt=media&token=083b1266-1120-4263-b27c-a7fcd900abfe",
             "messages": [
                 {
                     "msgid": 1,
@@ -84,7 +84,7 @@
             "uid": 2,
             "uname": "David Taylor",
             "uStat": "Available to Chat",
-            "img": "src/assets/trialPhoto2.jpg",
+            "img": "https://firebasestorage.googleapis.com/v0/b/chatapp-6f2d9.appspot.com/o/Images%2FtrialPhoto2.jpg?alt=media&token=3dd032a2-afe4-4654-b880-93aa5c7b9035",
             "messages": [
                 {
                     "msgid": 1,
@@ -164,25 +164,25 @@
     "groups": [
         {
             "grpid": 0,
-            "grpname": "Group 0",
-            "grplogo": "src/assets/trialPhoto3.jpg",
-            "grpdesc": "Test UI Group",
+            "grpname": "FRNDZ",
+            "grplogo": "https://firebasestorage.googleapis.com/v0/b/chatapp-6f2d9.appspot.com/o/Images%2Ffrnds.jpg?alt=media&token=8746cc95-795f-4e03-976b-a6e11ba4eb51",
+            "grpdesc": "Only Real Ones",
             "roomid": "",
             "members": [
                 {
                     "userid": 0,
                     "uname": "John Doe",
-                    "img": "src/assets/trialPhoto.jpg"
+                    "img": "https://firebasestorage.googleapis.com/v0/b/chatapp-6f2d9.appspot.com/o/Images%2FtrialPhoto.jpg?alt=media&token=8561329d-c394-41d6-ab15-9866b6edc94c"
                 },
                 {
                     "userid": 1,
-                    "uname":"David Taylor",
-                    "img": "src/assets/trialPhoto2.jpg"
-                }, 
+                    "uname": "David Taylor",
+                    "img": "https://firebasestorage.googleapis.com/v0/b/chatapp-6f2d9.appspot.com/o/Images%2FtrialPhoto2.jpg?alt=media&token=3dd032a2-afe4-4654-b880-93aa5c7b9035"
+                },
                 {
                     "userid": 2,
-                    "uname":"Emily Brown",
-                    "img": "src/assets/trialPhoto3.jpg"
+                    "uname": "Emily Brown",
+                    "img": "https://firebasestorage.googleapis.com/v0/b/chatapp-6f2d9.appspot.com/o/Images%2FtrialPhoto3.jpg?alt=media&token=083b1266-1120-4263-b27c-a7fcd900abfe"
                 }
             ],
             "messages": [
@@ -225,7 +225,7 @@
         }
     ],
     "currentUserId": 0,
-    "userImg": "src/assets/trialPhoto.jpg",
+    "userImg": "https://firebasestorage.googleapis.com/v0/b/chatapp-6f2d9.appspot.com/o/Images%2FtrialPhoto.jpg?alt=media&token=8561329d-c394-41d6-ab15-9866b6edc94c",
     "userName": "John Doe",
     "status": "Having a Great Time"
 }
