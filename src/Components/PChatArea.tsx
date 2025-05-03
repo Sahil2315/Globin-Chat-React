@@ -76,7 +76,7 @@ const PChatArea = ({
           />
           <span>{thisChat?.uname}</span>
         </div>
-        <div className="bg-slate-600/25 flex-1 overflow-auto flex flex-col px-2 py-2 rounded-r-lg rounded-b-lg mr-2 mb-2">
+        <div className="bg-slate-600/15 flex-1 overflow-auto flex flex-col px-2 py-2 rounded-r-lg rounded-b-lg mr-2 mb-2">
           <div className="flex flex-col flex-1 justify-end">
             {thisChat?.messages.map((message, index) => {
               let isLastSender = message.sendid == lastSender.current;
@@ -109,16 +109,16 @@ const PChatArea = ({
                       }
                     >
                       <img
-                        className="h-[26px] w-[26px] rounded-xl mr-2"
+                        className="h-[30px] w-[30px] rounded-xl mr-2"
                         src={thisChat?.img}
                       />
                       <span>{thisChat.uname}</span>
                     </div>
                     <div
-                      className={`mt-[3px] rounded-md px-2 py-1 relative whitespace-pre-line ${
+                      className={`mt-[3px] rounded-md text-md px-2 py-1 relative whitespace-pre-line ${
                         message.sendid == 0
-                          ? "bg-indigo-700/55"
-                          : "bg-zinc-700/65"
+                          ? "bg-indigo-700/50"
+                          : "bg-zinc-700/50"
                       }`}
                     >
                       <span>{message.content}</span>

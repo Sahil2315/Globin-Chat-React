@@ -170,13 +170,19 @@
             "roomid": "",
             "members": [
                 {
-                    
+                    "userid": 0,
+                    "uname": "John Doe",
+                    "img": "src/assets/trialPhoto.jpg"
                 },
                 {
-
+                    "userid": 1,
+                    "uname":"David Taylor",
+                    "img": "src/assets/trialPhoto2.jpg"
                 }, 
                 {
-
+                    "userid": 2,
+                    "uname":"Emily Brown",
+                    "img": "src/assets/trialPhoto3.jpg"
                 }
             ],
             "messages": [

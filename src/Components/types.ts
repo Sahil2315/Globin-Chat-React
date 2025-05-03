@@ -26,7 +26,6 @@ export type user = {
   userid: number;
   uname: string;
   img: string;
-  
 }
 
 export type gChat = {

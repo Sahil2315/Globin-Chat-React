@@ -1,6 +1,6 @@
 // src/features/counter/counterSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { pMessage, WholeAppData } from '../types';
+import { pMessage, WholeAppData, gMessage } from '../types';
 import localStore from "./defaultAppData.json"
 
 export interface TrialState {
@@ -21,9 +21,13 @@ const trialReducer = createSlice({
           state.value.DMs[i].messages.push(action.payload)
         }
       }
+    },
+    insertGChat: (state, action: PayloadAction<gMessage>) => {
+      state.value.groups[0].messages.push(action.payload)
     }
+
   },
 });
 
-export const { insertPChat } = trialReducer.actions;
+export const { insertPChat, insertGChat } = trialReducer.actions;
 export default trialReducer.reducer;
